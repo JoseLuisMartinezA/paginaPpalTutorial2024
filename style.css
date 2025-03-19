@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 1024px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(img/html5.png);
+    height: 210px;
+}
+nav{
+    float: left;
+    width: 200px;
+}
+#content{
+    float: right;
+    width: 800px;
+}
+#content p img.imgindex{
+    width: 500px;
+    height: 200px;
+}
+.centrar{
+    text-align: center;
+}
+.cb{
+    clear: both;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+ul,a{
+    text-decoration: none;
+}
+ul a li{
+    list-style: none;
+    background-color: aliceblue;
+    color: rgb(3, 35, 63);
+    font-size: 24px;
+    padding: 8px;
+    height: 38px;
+    border: 1px solid red;
+}
+li:hover{
+    list-style-type: none;
+    background-color: rgb(96, 96, 184);
+    font-size: 24px;
+    padding: 8px;
+    border: 1px solid red;
+}
+footer{
+    border: 1px solid red;
+    color: wheat;
+    background-color: rgb(20, 8, 61);
+}
+.etiqueta{
+    font-size: 24px;
+    color: blueviolet;
+}
+.verde{
+    color: green;
+}
+.justificado{
+    text-align: justify;
+}
+.derecha{
+    text-align: right;
+}
+#coloresalternos th{
+    background-color: rgb(1,1,87);
+    color: rgb(210,201,240);
+}
+#coloresalternos tr:nth-child(even) {
+    background-color: rgb(137,100,252);
+}
+#thorario{
+    text-align: center;
+    color: rgb(9,64,73);
+}
+#thorario td{
+    color: black;
+}
+.dia{
+    background-color: yellow;
+}
+.HORA{
+    background-color: indianred;
+}
+.BDD{
+    background-color: aqua;
+}
+.FOL{
+    background-color: aquamarine;
+}
+.LMSG{
+    background-color: cadetblue;
+}
+.RECREO{
+    background-color: darkcyan;
+}
+.ENDE{
+    background-color: darkturquoise;
+}
+.SISI{
+    background-color: darksalmon;
+}
+.PROG{
+    background-color: deepskyblue;
+}
+.ING{
+    background-color: blueviolet;
+}
+#sexo {
+    width: auto;
+}
+

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header></header>
+        <main>
+          <nav>
+            <ul>
+              <a href="index.html">
+                <li>Paginaprincipal</li>
+              </a>
+              <a href="parrafos.html">
+                <li>parrafos</li>
+              </a>
+              <a href="enlaces.html">
+                <li>enlaces</li>
+              </a>
+              <a href="tablas.html">
+                <li>tablas</li>
+              </a>
+              <a href="multimedia.html">
+                <li>multimedia</li>
+              </a>
+              <a href="formulario.html">
+                <li>formulario</li>
+              </a>
+            </ul>
+          </nav>
+          <div id="content">
+            <div id="tablas">
+              <p>Para realizar una tabla html necesitamos las siguientes etiquetas:
+                  <span class="etiqueta">table,thead,tbody,tfooter,tr,th,td</span>
+              </p>
+              <hr>
+              <table border="1" style="width: 30%;">
+                <caption>ej 1,usando todas las etiquetas citadas</caption>
+                <thead>
+                  <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>january</td>
+                    <td>100€</td>
+                  </tr>
+                  <tr>
+                    <td>february</td>
+                    <td>80€</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>sun</td>
+                    <td>180€</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </hr>
+            </div>
+            <hr>
+              <table border="1" style="width: 30%;">
+                <caption>ej 1,usando todas las etiquetas citadas</caption>
+                <thead>
+                  <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                    <th>trimestre</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>january</td>
+                    <td>100€</td>
+                    <td rowspan="3">240</td>
+                  </tr>
+                  <tr>
+                    <td>february</td>
+                    <td>80€</td>
+                  </tr>
+                  <tr>
+                    <td>sun</td>
+                    <td>180€</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <th colspan="3">
+                    Primer trimestre
+                  </th>
+                </tfoot>
+              </table>
+            </hr>
+            <hr>
+            <table id="coloresalternos">
+              <caption>colores alternos filas pares inpares</caption>
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+            </table>
+          </hr>
+          <hr>
+            <table  border="2px" id="thorario">
+              <thead>
+                <tr>
+                  <th colspan="6">Este es mi horario de clases :3</th>
+              </tr>
+              <tr align="center">
+                  <th class="dia">HORA</th>
+                  <th class="dia">LUNES</th>
+                  <th class="dia">MARTES</th>
+                  <th class="dia">MIERCOLES</th>
+                  <th class="dia">JUEVES</th>
+                  <th class="dia">VIERNES</th>
+              </tr>    
+              </thead>
+              <tbody>
+                <tr align="center">
+                  <td class="HORA">15:40/16:35</td>
+                  <td rowspan="2" class="SISI">SISI</td>
+                  <td rowspan="2" class="BDD">BDD</td>
+                  <td rowspan="2" class="LMSG">LMSG</td>
+                  <td rowspan="2" class="BDD">BDD</td>
+                  <td class="FOL">FOL</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">16:35/17:30</td>
+                  <td rowspan="2" class="PROG">PROG</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">17:30/18:25</td>
+                  <td class="LMSG">LMSG</td>
+                  <td class="FOL">FOL</td>
+                  <td class="BDD">BDD</td>
+                  <td class="SISI">SISI</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">18:25/18:55</td>
+                  <td colspan=5 class="RECREO">RECREO</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">18:55/19:50</td >
+                  <td class="LMSG">LMSG</td >
+                  <td class="FOL">FOL</td>
+                  <td class="BDD">BDD</td>
+                  <td class="SISI">SISI</td>
+                  <td class="ING">ING</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">19:50/20:45</td>
+                  <td rowspan="2" class="PROG">PROG</td>
+                  <td class="ENDE">ENDE</td>
+                  <td rowspan="2" class="SISI">SISI</td>
+                  <td rowspan="2" class="PROG">PROG</td>
+                  <td rowspan="2" class="ENDE">ENDE</td>
+              </tr>
+              <tr align="center">
+                  <td class="HORA">20:45/21:40</td>
+                  <td class="ING">ING</td>
+              </tr>
+              </tbody>
+          </table>
+          <hr>
+          </div>
+          <div class="cb"></div>
+        </main>
+        <footer>
+          <h1 class="centrar">VS1DAW &copy; Augusto 2025</h1>
+        </footer>
+    </div>
+</body>
+</html>
